@@ -22,6 +22,11 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 end
 
+#github-pages A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages.
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
